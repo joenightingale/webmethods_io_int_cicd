@@ -17,8 +17,8 @@ resources:
   - repository: projectRepo
     type: github
     endpoint: github
-    name: $(repoPath)
-    ref: $(featureBranchName)
+    name: joenightingale/webm_ioAssets
+    ref: featureA
 steps:
 - checkout: projectRepo
   submodules: "true"
